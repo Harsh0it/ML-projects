@@ -20,7 +20,7 @@ lr.fit(X_train, y_train)
 
 cgpa_input = float(input("Enter your CGPA: "))
 
-# Predict package
-predicted_package = lr.predict([[cgpa_input]])  # 2D array
+
+predicted_package = lr.predict([[cgpa_input]]) 
 
 print(f"Predicted Package: ₹{predicted_package[0]:.2f} LPA")
